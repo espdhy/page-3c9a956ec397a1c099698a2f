@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "template_version": "3a528c553883e59d7cfa",
+  "page_size": 20,
+  "site_id": "3939886c494f207fa99ea77b",
+  "owner": "espdhy",
+  "repo": "page-3c9a956ec397a1c099698a2f",
+  "title": "DEC",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "3c9a956ec397a1c099698a2f",
+      "a": "DEC",
+      "b": "",
+      "entity": "DEC",
+      "brand": "DEC",
+      "separator": "",
+      "path": "index.html",
+      "hash": "e61940ab897e66ed8de3ed892ccf29dbd3a43640cabbff09527eecba9dfbf19f",
+      "content": {
+        "keyword1": "DEC",
+        "keyword2": "",
+        "primary_entity": "DEC",
+        "plans": [],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "DEC 用一份每月更新的延迟分布图，记录网络状态随时间与区域的变化。套餐按节点池、设备数与线路等级分层，客户端覆盖主流平台。",
+          "AI_DESCRIPTION": "DEC 用一份每月更新的延迟分布图，记录网络状态随时间与区域的变化。套餐按节点池、设备数与线路等级分层，客户端覆盖主流平台。"
+        },
+        "_brand_page": {
+          "version": 3,
+          "body": "<style>\n*{box-sizing:border-box}\nhtml,body{margin:0;padding:0}\nbody{font-family:\"Iowan Old Style\",\"Palatino Linotype\",Palatino,\"Book Antiqua\",Georgia,serif;background:#f6efe2;color:#4a1320;line-height:1.65;font-size:17px;padding-bottom:88px}\na{color:#7a1f2b;text-decoration:underline;text-underline-offset:3px}\nh1,h2,h3{font-weight:700;letter-spacing:-0.01em;color:#4a1320}\nmain{max-width:1100px;margin:0 auto;padding:0 24px}\nsection{padding:56px 0;border-top:1px solid #e2d3bf}\nsection:first-of-type{border-top:none}\n.eyebrow{font-family:\"Helvetica Neue\",Arial,sans-serif;font-size:12px;letter-spacing:0.18em;text-transform:uppercase;color:#7a1f2b;margin:0 0 14px}\n.lede{font-size:19px;color:#5a2030;max-width:42em}\nmark{background:transparent;color:#7a1f2b;font-weight:700}\n\n/* hero */\n.hero{padding:72px 0 40px}\n.dash{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:28px}\n.tile{background:#f1e6d2;border:1px solid #e2d3bf;border-radius:10px;padding:18px;position:relative}\n.tile::before{content:\"\";position:absolute;left:0;top:14px;bottom:14px;width:3px;border-radius:2px;background:#7a1f2b}\n.tile .label{font-family:\"Helvetica Neue\",Arial,sans-serif;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:#7a1f2b;margin:0 0 8px;padding-left:10px}\n.tile .num{font-size:30px;line-height:1;margin:0;padding-left:10px;font-weight:700;color:#4a1320}\n.tile .note{font-size:13px;color:#6a4a3a;margin:8px 0 0;padding-left:10px}\n@media (max-width:760px){.dash{grid-template-columns:repeat(2,1fr)}}\n\n/* narrative */\n.narr p{margin:0 0 18px;max-width:46em}\n.narr p:last-child{margin-bottom:0}\n\n/* usage steps */\n.steps{display:grid;grid-template-columns:1fr;gap:0}\n.step{display:grid;grid-template-columns:90px 1fr;gap:16px;padding:22px 0;border-top:1px dashed #d8c4a6}\n.step:first-child{border-top:none}\n.step .n{font-size:38px;line-height:1;color:#7a1f2b;font-weight:700}\n.step h3{margin:0 0 8px}\n.step p{margin:0;max-width:42em}\n\n/* plans */\n.plans{display:grid;grid-template-columns:1fr;gap:22px;margin-top:28px}\n.plan{background:#f1e6d2;border-radius:10px;padding:24px 24px 24px 30px;position:relative;border:1px solid #e2d3bf}\n.plan::before{content:\"\";position:absolute;left:0;top:0;bottom:0;width:5px;border-radius:10px 0 0 10px;background:#7a1f2b}\n.plan.featured::before{background:#4a1320;width:7px}\n.plan h3{margin:0 0 6px;font-size:22px}\n.plan .price{font-size:18px;margin:0 0 4px}\n.plan .annual{font-size:13px;color:#6a4a3a;margin:0 0 14px}\n.plan ul{margin:0;padding-left:18px}\n.plan li{margin:6px 0}\n.plan.featured{transform:translateX(24px)}\n@media (max-width:760px){.plan.featured{transform:none}}\n\n/* clients */\n.clients p{margin:0 0 14px;max-width:44em}\n.client-list{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:14px}\n.client{background:#f1e6d2;border-radius:8px;padding:16px 18px;border:1px solid #e2d3bf;position:relative}\n.client::before{content:\"\";position:absolute;left:0;top:14px;bottom:14px;width:3px;border-radius:2px;background:#7a1f2b}\n.client h3{margin:0 0 4px;font-size:17px;padding-left:10px}\n.client p{margin:0;font-size:14px;padding-left:10px}\n@media (max-width:760px){.client-list{grid-template-columns:1fr}}\n\n/* faq */\n.faq-group{margin:0 0 32px}\n.faq-group h3{font-size:15px;letter-spacing:0.06em;text-transform:uppercase;color:#7a1f2b;margin:0 0 14px}\n.qa{padding:14px 0;border-top:1px solid #e2d3bf}\n.qa:first-of-type{border-top:none}\n.qa .q{font-weight:700;margin:0 0 8px;color:#4a1320}\n.qa .a{margin:0;max-width:44em}\n\n/* footer nav */\n.footnav{position:fixed;left:0;right:0;bottom:0;background:#4a1320;color:#f6efe2;padding:14px 24px}\n.footnav-inner{max-width:1100px;margin:0 auto;display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;justify-content:space-between;font-family:\"Helvetica Neue\",Arial,sans-serif;font-size:14px}\n.footnav a{color:#f6efe2;text-decoration:none}\n.footnav .brand{font-weight:700;letter-spacing:0.04em}\n@media (max-width:560px){.footnav-inner{flex-direction:column;align-items:flex-start;gap:8px}}\n</style><main>\n\n<header class=\"hero\">\n  <p class=\"eyebrow\">DEC · 延迟日志</p>\n  <h1>DEC · 延迟的另一种读法</h1>\n  <p class=\"lede\">DEC 不追求“最快”的承诺，而是把每一次连接的延迟、抖动与节点状态，像气象记录一样沉淀下来。你能看到凌晨三点东京线路的分布，也能看到周末晚高峰上海出口的形态。这份坦诚，比一句口号更值得托付。</p>\n  <div class=\"dash\" role=\"group\" aria-label=\"当前观测概览\">\n    <article class=\"tile\">\n      <p class=\"label\">当月更新</p>\n      <p class=\"num\">17</p>\n      <p class=\"note\">次节点状态采样</p>\n    </article>\n    <article class=\"tile\">\n      <p class=\"label\">在测区域</p>\n      <p class=\"num\">6</p>\n      <p class=\"note\">东京 香港 新加坡 法兰克福 洛杉矶 圣保罗</p>\n    </article>\n    <article class=\"tile\">\n      <p class=\"label\">中位延迟</p>\n      <p class=\"num\">48<span>ms</span></p>\n      <p class=\"note\">旗舰版东京线路近七日</p>\n    </article>\n    <article class=\"tile\">\n      <p class=\"label\">在线设备</p>\n      <p class=\"num\">不限</p>\n      <p class=\"note\">以套餐并发数为准</p>\n    </article>\n  </div>\n</header>\n\n<section class=\"narr\" id=\"about\">\n  <p class=\"eyebrow\">专栏</p>\n  <h2>把网络当成一种气候来读</h2>\n  <p>大多数代理服务把“速度”写成一句标语，贴在首页最显眼的位置。DEC 选择换一种方式：我们每天从不同区域、不同时段抓取延迟分布，把结果像潮汐表一样留档。它不会让网络更快，但会让你在切换线路时更清醒。</p>\n  <p>这意味着，当你今晚想在奈良的直播里看一场能剧，或是在法兰克福的镜像站拉取一份编译日志，DEC 能给你的不只是一个入口，而是一段关于“此刻这条路是否还通顺”的近期记录。</p>\n  <p>我们把节点池按线路等级分层，把套餐按流量、设备数与工单优先级分层。没有“万能节点”，也没有“神秘线路”——只有一张可以被翻阅的延迟图谱。</p>\n</section>\n\n<section id=\"usage\">\n  <p class=\"eyebrow\">使用说明</p>\n  <h2>四步开始阅读你的网络</h2>\n  <div class=\"steps\">\n    <article class=\"step\">\n      <div class=\"n\">01</div>\n      <div>\n        <h3>选择适合的套餐层</h3>\n        <p>先想清楚你每月真正消耗的流量与并发设备数。轻度浏览选基础版，重度流媒体与游戏加速选旗舰版，多人协作与定制路由选团队版。</p>\n      </div>\n    </article>\n    <article class=\"step\">\n      <div class=\"n\">02</div>\n      <div>\n        <h3>下载对应平台的客户端</h3>\n        <p>DEC 目前覆盖 Windows、macOS、Android 三端。客户端内置节点池选择与延迟采样展示，登录后即可同步你的套餐状态。</p>\n      </div>\n    </article>\n    <article class=\"step\">\n      <div class=\"n\">03</div>\n      <div>\n        <h3>按区域与时段挑选节点</h3>\n        <p>不要只看节点名称。在客户端里展开某个区域的近七日延迟分布，结合你常用的使用时段，挑选中位延迟更稳定的那一组。</p>\n      </div>\n    </article>\n    <article class=\"step\">\n      <div class=\"n\">04</div>\n      <div>\n        <h3>遇到波动时翻阅日志</h3>\n        <p>当某条线路突然变慢，先别急着换节点。在客户端的“延迟日志”里查看该节点最近 24 小时的曲线，判断是偶发抖动还是持续劣化。</p>\n      </div>\n    </article>\n  </div>\n</section>\n\n<section id=\"plans\">\n  <p class=\"eyebrow\">套餐</p>\n  <h2>按线路等级递进的三层选择</h2>\n  <p class=\"lede\">DEC 的套餐差异不在“快慢”，而在节点池深度、并发设备数与线路等级。旗舰版相比基础版，真正多出来的是 IPLC 专线与原生流媒体解锁；团队版则把路由定制权交到你手里。</p>\n  <div class=\"plans\">\n    <article class=\"plan\">\n      <h3>基础版</h3>\n      <p class=\"price\">¥15/月</p>\n      <p class=\"annual\">按年付仅需 ¥150/年</p>\n      <ul>\n        <li>每月 100GB 极速流量</li>\n        <li>支持 3 台设备同时在线</li>\n        <li>解锁基础流媒体</li>\n        <li>普通线路节点池</li>\n      </ul>\n    </article>\n    <article class=\"plan featured\">\n      <h3>旗舰版 · 推荐</h3>\n      <p class=\"price\">¥35/月</p>\n      <p class=\"annual\">按年付仅需 ¥350/年</p>\n      <ul>\n        <li>每月 300GB 极速流量</li>\n        <li>支持 5 台设备同时在线</li>\n        <li>全节点原生流媒体解锁</li>\n        <li>IPLC 专线游戏加速优化</li>\n        <li>7×24 优先工单支持</li>\n      </ul>\n    </article>\n    <article class=\"plan\">\n      <h3>团队版</h3>\n      <p class=\"price\">¥85/月</p>\n      <p class=\"annual\">按年付仅需 ¥850/年</p>\n      <ul>\n        <li>每月 1000GB 极速流量</li>\n        <li>支持 20 台设备同时在线</li>\n        <li>VIP 专属高带宽节点</li>\n        <li>支持企业定制路由</li>\n        <li>专属客户经理服务</li>\n      </ul>\n    </article>\n  </div>\n</section>\n\n<section id=\"clients\">\n  <p class=\"eyebrow\">客户端</p>\n  <h2>覆盖主流桌面与移动平台</h2>\n  <p>DEC 的客户端不只是连接器，也是延迟图谱的阅览器。每次切换节点时，你看到的不是一句“已连接”，而是这条线路近 24 小时的延迟分布与抖动范围。</p>\n  <div class=\"client-list\">\n    <article class=\"client\">\n      <h3>DEC for Windows</h3>\n      <p>支持 Windows 10 及以上。内置节点池筛选、延迟日志与流量统计。订阅生效后登录即可使用。</p>\n    </article>\n    <article class=\"client\">\n      <h3>DEC for macOS</h3>\n      <p>支持 macOS 12 及以上，适配 Apple Silicon。提供菜单栏快捷切换与原生流媒体解锁状态指示。</p>\n    </article>\n    <article class=\"client\">\n      <h3>DEC for Android</h3>\n      <p>支持 Android 9 及以上。提供分应用代理与按区域分组的选择器，适合移动场景下的临时切换。</p>\n    </article>\n    <article class=\"client\">\n      <h3>其他平台</h3>\n      <p>iOS、Linux 与路由器端尚未提供独立客户端。如需手动配置，可联系工单索取通用连接参数。</p>\n    </article>\n  </div>\n</section>\n\n<section id=\"faq\">\n  <p class=\"eyebrow\">常见问题</p>\n  <h2>关于节点、流量与使用方式的问答</h2>\n\n  <div class=\"faq-group\">\n    <h3>节点与线路</h3>\n    <article class=\"qa\">\n      <p class=\"q\">DEC 的节点池是怎么分层的？</p>\n      <p class=\"a\">基础版接入普通线路节点池，覆盖主流区域但优先级较低；旗舰版与团队版可访问 VIP 专属高带宽节点，团队版进一步支持企业定制路由。分层依据是线路等级与带宽储备，而非简单的“快慢”。</p>\n    </article>\n    <article class=\"qa\">\n      <p class=\"q\">延迟图谱里的数据多久更新一次？</p>\n      <p class=\"a\">客户端展示的延迟分布基于近七日的采样数据，每条节点每日至少更新一次。遇到明显波动时，工单团队会临时补采并标注在日志中。</p>\n    </article>\n    <article class=\"qa\">\n      <p class=\"q\">IPLC 专线和普通线路在使用上有什么差别？</p>\n      <p class=\"a\">IPLC 专线在跨境段不走公共互联网，抖动更小、丢包更低，适合游戏加速与实时音视频。普通线路足够应对日常浏览与下载，但在晚高峰可能出现波动。</p>\n    </article>\n  </div>\n\n  <div class=\"faq-group\">\n    <h3>套餐与计费</h3>\n    <article class=\"qa\">\n      <p class=\"q\">套餐之间的核心差异是什么？</p>\n      <p class=\"a\">核心差异在于流量额度、并发设备数、节点池层级与工单优先级。基础版适合轻度浏览，旗舰版面向流媒体与游戏，团队版面向多人协作与企业定制。</p>\n    </article>\n    <article class=\"qa\">\n      <p class=\"q\">按年付和按月付的权益是否一致？</p>\n      <p class=\"a\">权益完全一致，按年付仅为价格优惠。基础版年付 ¥150/年，旗舰版 ¥350/年，团队版 ¥850/年，对应十月价。</p>\n    </article>\n    <article class=\"qa\">\n      <p class=\"q\">流量超出后会怎样？</p>\n      <p class=\"a\">当月流量用尽后，连接会限速至可维持基础浏览的水平，不会自动扣费。如需继续高速使用，可升级套餐或等待次月重置。</p>\n    </article>\n  </div>\n\n  <div class=\"faq-group\">\n    <h3>客户端与使用</h3>\n    <article class=\"qa\">\n      <p class=\"q\">为什么没有 iOS 客户端？</p>\n      <p class=\"a\">iOS 端的独立客户端仍在评估中，目前没有明确的发布时间。临时方案可使用通用协议手动配置，具体参数可向工单索取。</p>\n    </article>\n    <article class=\"qa\">\n      <p class=\"q\">同一账号能在多台设备同时使用吗？</p>\n      <p class=\"a\">可以，但并发数受套餐限制。基础版 3 台，旗舰版 5 台，团队版 20 台。超出并发限制时，最早建立的连接会被顶下线。</p>\n    </article>\n    <article class=\"qa\">\n      <p class=\"q\">如何判断某条线路是否值得长期使用？</p>\n      <p class=\"a\">在客户端延迟日志里查看该节点近七日的中位延迟与抖动区间。若中位稳定、抖动收窄，说明线路质量良好；若出现明显尖峰，建议换区域或换线路等级。</p>\n    </article>\n  </div>\n</section>\n\n</main>\n\n<nav class=\"footnav\" aria-label=\"底部导航\">\n  <div class=\"footnav-inner\">\n    <span class=\"brand\">DEC</span>\n    <span>\n      <a href=\"#about\">专栏</a> ·\n      <a href=\"#usage\">使用说明</a> ·\n      <a href=\"#plans\">套餐</a> ·\n      <a href=\"#clients\">客户端</a> ·\n      <a href=\"#faq\">常见问题</a>\n    </span>\n  </div>\n</nav>",
+          "hash": "23f8b0b87808390002e54c5a8f825557b3916298753dc9a65b3ca199de670a44",
+          "seo": {
+            "title": "DEC — 延迟的另一种读法",
+            "keywords": "DEC,延迟分布,网络观测,节点池,套餐,客户端,FAQ",
+            "description": "DEC 用一份每月更新的延迟分布图，记录网络状态随时间与区域的变化。套餐按节点池、设备数与线路等级分层，客户端覆盖主流平台。"
+          },
+          "provider": "grok",
+          "model": "glm-5.3",
+          "design": {
+            "no": "5427",
+            "hero": "4 仪表盘式数据块拼贴",
+            "palette": "8 酒红配象牙白",
+            "nav": "4 底部固定式文字导航",
+            "card": "4 左侧色条标记",
+            "plans_view": "3 阶梯式递进排列",
+            "faq_view": "3 按主题分组",
+            "tone": "4 专栏作者式叙述",
+            "order": "首屏优先，其余区块由 AI 根据已选构图和信息关系安排"
+          }
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "stwlg.cn",
+    "host": "p-9006dafe3f.stwlg.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "41d40807ead71c8fe0e75d9ffc5a9d93aa872631393a29f1dfc75e2d94fe7bff",
+    "sitemap.xml": "302f24f0cecb9d11f31418d909327a93480cd5335741704b8c363698524ad1d0",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "ac9d94f956a43019e7d5987cdf746a468fe841955f4767374abd50d8ed8e025f",
+    "robots.txt": "449dc9398114b7b10479695f36d04c355829f498e8d942223618ae8597670488",
+    "aa5c67d5b6dfa3240ae91447f0c214f1.txt": "84f1423bcce582e82992bdde2016d719f5febf6adfee2bbb493dcdac582d6575"
+  },
+  "revision": "a6b8805110fc314c5623ab659fef91f081045b352d33cd4d706de97d2181e776"
+}

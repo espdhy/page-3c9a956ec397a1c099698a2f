@@ -1,0 +1,278 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>DEC — 延迟的另一种读法</title><meta name="description" content="DEC 用一份每月更新的延迟分布图，记录网络状态随时间与区域的变化。套餐按节点池、设备数与线路等级分层，客户端覆盖主流平台。"><meta name="keywords" content="DEC,延迟分布,网络观测,节点池,套餐,客户端,FAQ"><meta name="robots" content="index,follow"><link rel="canonical" href="https://p-9006dafe3f.stwlg.cn/"><meta property="og:type" content="website"><meta property="og:title" content="DEC — 延迟的另一种读法"><meta property="og:description" content="DEC 用一份每月更新的延迟分布图，记录网络状态随时间与区域的变化。套餐按节点池、设备数与线路等级分层，客户端覆盖主流平台。"><meta property="og:url" content="https://p-9006dafe3f.stwlg.cn/"><meta property="og:site_name" content="DEC"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "url": "https://p-9006dafe3f.stwlg.cn/", "name": "DEC — 延迟的另一种读法", "description": "DEC 用一份每月更新的延迟分布图，记录网络状态随时间与区域的变化。套餐按节点池、设备数与线路等级分层，客户端覆盖主流平台。", "inLanguage": "zh-CN"}</script><meta name="publisher-task" content="3c9a956ec397a1c099698a2f:e61940ab897e66ed8de3ed892ccf29dbd3a43640cabbff09527eecba9dfbf19f:5547e99c80aa796e6254"></head><body id="top"><style>
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;background:#f6efe2;color:#4a1320;line-height:1.65;font-size:17px;padding-bottom:88px}
+a{color:#7a1f2b;text-decoration:underline;text-underline-offset:3px}
+h1,h2,h3{font-weight:700;letter-spacing:-0.01em;color:#4a1320}
+main{max-width:1100px;margin:0 auto;padding:0 24px}
+section{padding:56px 0;border-top:1px solid #e2d3bf}
+section:first-of-type{border-top:none}
+.eyebrow{font-family:"Helvetica Neue",Arial,sans-serif;font-size:12px;letter-spacing:0.18em;text-transform:uppercase;color:#7a1f2b;margin:0 0 14px}
+.lede{font-size:19px;color:#5a2030;max-width:42em}
+mark{background:transparent;color:#7a1f2b;font-weight:700}
+
+/* hero */
+.hero{padding:72px 0 40px}
+.dash{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:28px}
+.tile{background:#f1e6d2;border:1px solid #e2d3bf;border-radius:10px;padding:18px;position:relative}
+.tile::before{content:"";position:absolute;left:0;top:14px;bottom:14px;width:3px;border-radius:2px;background:#7a1f2b}
+.tile .label{font-family:"Helvetica Neue",Arial,sans-serif;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:#7a1f2b;margin:0 0 8px;padding-left:10px}
+.tile .num{font-size:30px;line-height:1;margin:0;padding-left:10px;font-weight:700;color:#4a1320}
+.tile .note{font-size:13px;color:#6a4a3a;margin:8px 0 0;padding-left:10px}
+@media (max-width:760px){.dash{grid-template-columns:repeat(2,1fr)}}
+
+/* narrative */
+.narr p{margin:0 0 18px;max-width:46em}
+.narr p:last-child{margin-bottom:0}
+
+/* usage steps */
+.steps{display:grid;grid-template-columns:1fr;gap:0}
+.step{display:grid;grid-template-columns:90px 1fr;gap:16px;padding:22px 0;border-top:1px dashed #d8c4a6}
+.step:first-child{border-top:none}
+.step .n{font-size:38px;line-height:1;color:#7a1f2b;font-weight:700}
+.step h3{margin:0 0 8px}
+.step p{margin:0;max-width:42em}
+
+/* plans */
+.plans{display:grid;grid-template-columns:1fr;gap:22px;margin-top:28px}
+.plan{background:#f1e6d2;border-radius:10px;padding:24px 24px 24px 30px;position:relative;border:1px solid #e2d3bf}
+.plan::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;border-radius:10px 0 0 10px;background:#7a1f2b}
+.plan.featured::before{background:#4a1320;width:7px}
+.plan h3{margin:0 0 6px;font-size:22px}
+.plan .price{font-size:18px;margin:0 0 4px}
+.plan .annual{font-size:13px;color:#6a4a3a;margin:0 0 14px}
+.plan ul{margin:0;padding-left:18px}
+.plan li{margin:6px 0}
+.plan.featured{transform:translateX(24px)}
+@media (max-width:760px){.plan.featured{transform:none}}
+
+/* clients */
+.clients p{margin:0 0 14px;max-width:44em}
+.client-list{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:14px}
+.client{background:#f1e6d2;border-radius:8px;padding:16px 18px;border:1px solid #e2d3bf;position:relative}
+.client::before{content:"";position:absolute;left:0;top:14px;bottom:14px;width:3px;border-radius:2px;background:#7a1f2b}
+.client h3{margin:0 0 4px;font-size:17px;padding-left:10px}
+.client p{margin:0;font-size:14px;padding-left:10px}
+@media (max-width:760px){.client-list{grid-template-columns:1fr}}
+
+/* faq */
+.faq-group{margin:0 0 32px}
+.faq-group h3{font-size:15px;letter-spacing:0.06em;text-transform:uppercase;color:#7a1f2b;margin:0 0 14px}
+.qa{padding:14px 0;border-top:1px solid #e2d3bf}
+.qa:first-of-type{border-top:none}
+.qa .q{font-weight:700;margin:0 0 8px;color:#4a1320}
+.qa .a{margin:0;max-width:44em}
+
+/* footer nav */
+.footnav{position:fixed;left:0;right:0;bottom:0;background:#4a1320;color:#f6efe2;padding:14px 24px}
+.footnav-inner{max-width:1100px;margin:0 auto;display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;justify-content:space-between;font-family:"Helvetica Neue",Arial,sans-serif;font-size:14px}
+.footnav a{color:#f6efe2;text-decoration:none}
+.footnav .brand{font-weight:700;letter-spacing:0.04em}
+@media (max-width:560px){.footnav-inner{flex-direction:column;align-items:flex-start;gap:8px}}
+</style><main>
+
+<header class="hero">
+  <p class="eyebrow">DEC · 延迟日志</p>
+  <h1>DEC · 延迟的另一种读法</h1>
+  <p class="lede">DEC 不追求“最快”的承诺，而是把每一次连接的延迟、抖动与节点状态，像气象记录一样沉淀下来。你能看到凌晨三点东京线路的分布，也能看到周末晚高峰上海出口的形态。这份坦诚，比一句口号更值得托付。</p>
+  <div class="dash" role="group" aria-label="当前观测概览">
+    <article class="tile">
+      <p class="label">当月更新</p>
+      <p class="num">17</p>
+      <p class="note">次节点状态采样</p>
+    </article>
+    <article class="tile">
+      <p class="label">在测区域</p>
+      <p class="num">6</p>
+      <p class="note">东京 香港 新加坡 法兰克福 洛杉矶 圣保罗</p>
+    </article>
+    <article class="tile">
+      <p class="label">中位延迟</p>
+      <p class="num">48<span>ms</span></p>
+      <p class="note">旗舰版东京线路近七日</p>
+    </article>
+    <article class="tile">
+      <p class="label">在线设备</p>
+      <p class="num">不限</p>
+      <p class="note">以套餐并发数为准</p>
+    </article>
+  </div>
+</header>
+
+<section class="narr" id="about">
+  <p class="eyebrow">专栏</p>
+  <h2>把网络当成一种气候来读</h2>
+  <p>大多数代理服务把“速度”写成一句标语，贴在首页最显眼的位置。DEC 选择换一种方式：我们每天从不同区域、不同时段抓取延迟分布，把结果像潮汐表一样留档。它不会让网络更快，但会让你在切换线路时更清醒。</p>
+  <p>这意味着，当你今晚想在奈良的直播里看一场能剧，或是在法兰克福的镜像站拉取一份编译日志，DEC 能给你的不只是一个入口，而是一段关于“此刻这条路是否还通顺”的近期记录。</p>
+  <p>我们把节点池按线路等级分层，把套餐按流量、设备数与工单优先级分层。没有“万能节点”，也没有“神秘线路”——只有一张可以被翻阅的延迟图谱。</p>
+</section>
+
+<section id="usage">
+  <p class="eyebrow">使用说明</p>
+  <h2>四步开始阅读你的网络</h2>
+  <div class="steps">
+    <article class="step">
+      <div class="n">01</div>
+      <div>
+        <h3>选择适合的套餐层</h3>
+        <p>先想清楚你每月真正消耗的流量与并发设备数。轻度浏览选基础版，重度流媒体与游戏加速选旗舰版，多人协作与定制路由选团队版。</p>
+      </div>
+    </article>
+    <article class="step">
+      <div class="n">02</div>
+      <div>
+        <h3>下载对应平台的客户端</h3>
+        <p>DEC 目前覆盖 Windows、macOS、Android 三端。客户端内置节点池选择与延迟采样展示，登录后即可同步你的套餐状态。</p>
+      </div>
+    </article>
+    <article class="step">
+      <div class="n">03</div>
+      <div>
+        <h3>按区域与时段挑选节点</h3>
+        <p>不要只看节点名称。在客户端里展开某个区域的近七日延迟分布，结合你常用的使用时段，挑选中位延迟更稳定的那一组。</p>
+      </div>
+    </article>
+    <article class="step">
+      <div class="n">04</div>
+      <div>
+        <h3>遇到波动时翻阅日志</h3>
+        <p>当某条线路突然变慢，先别急着换节点。在客户端的“延迟日志”里查看该节点最近 24 小时的曲线，判断是偶发抖动还是持续劣化。</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="plans">
+  <p class="eyebrow">套餐</p>
+  <h2>按线路等级递进的三层选择</h2>
+  <p class="lede">DEC 的套餐差异不在“快慢”，而在节点池深度、并发设备数与线路等级。旗舰版相比基础版，真正多出来的是 IPLC 专线与原生流媒体解锁；团队版则把路由定制权交到你手里。</p>
+  <div class="plans">
+    <article class="plan">
+      <h3>基础版</h3>
+      <p class="price">¥15/月</p>
+      <p class="annual">按年付仅需 ¥150/年</p>
+      <ul>
+        <li>每月 100GB 极速流量</li>
+        <li>支持 3 台设备同时在线</li>
+        <li>解锁基础流媒体</li>
+        <li>普通线路节点池</li>
+      </ul>
+    </article>
+    <article class="plan featured">
+      <h3>旗舰版 · 推荐</h3>
+      <p class="price">¥35/月</p>
+      <p class="annual">按年付仅需 ¥350/年</p>
+      <ul>
+        <li>每月 300GB 极速流量</li>
+        <li>支持 5 台设备同时在线</li>
+        <li>全节点原生流媒体解锁</li>
+        <li>IPLC 专线游戏加速优化</li>
+        <li>7×24 优先工单支持</li>
+      </ul>
+    </article>
+    <article class="plan">
+      <h3>团队版</h3>
+      <p class="price">¥85/月</p>
+      <p class="annual">按年付仅需 ¥850/年</p>
+      <ul>
+        <li>每月 1000GB 极速流量</li>
+        <li>支持 20 台设备同时在线</li>
+        <li>VIP 专属高带宽节点</li>
+        <li>支持企业定制路由</li>
+        <li>专属客户经理服务</li>
+      </ul>
+    </article>
+  </div>
+</section>
+
+<section id="clients">
+  <p class="eyebrow">客户端</p>
+  <h2>覆盖主流桌面与移动平台</h2>
+  <p>DEC 的客户端不只是连接器，也是延迟图谱的阅览器。每次切换节点时，你看到的不是一句“已连接”，而是这条线路近 24 小时的延迟分布与抖动范围。</p>
+  <div class="client-list">
+    <article class="client">
+      <h3>DEC for Windows</h3>
+      <p>支持 Windows 10 及以上。内置节点池筛选、延迟日志与流量统计。订阅生效后登录即可使用。</p>
+    </article>
+    <article class="client">
+      <h3>DEC for macOS</h3>
+      <p>支持 macOS 12 及以上，适配 Apple Silicon。提供菜单栏快捷切换与原生流媒体解锁状态指示。</p>
+    </article>
+    <article class="client">
+      <h3>DEC for Android</h3>
+      <p>支持 Android 9 及以上。提供分应用代理与按区域分组的选择器，适合移动场景下的临时切换。</p>
+    </article>
+    <article class="client">
+      <h3>其他平台</h3>
+      <p>iOS、Linux 与路由器端尚未提供独立客户端。如需手动配置，可联系工单索取通用连接参数。</p>
+    </article>
+  </div>
+</section>
+
+<section id="faq">
+  <p class="eyebrow">常见问题</p>
+  <h2>关于节点、流量与使用方式的问答</h2>
+
+  <div class="faq-group">
+    <h3>节点与线路</h3>
+    <article class="qa">
+      <p class="q">DEC 的节点池是怎么分层的？</p>
+      <p class="a">基础版接入普通线路节点池，覆盖主流区域但优先级较低；旗舰版与团队版可访问 VIP 专属高带宽节点，团队版进一步支持企业定制路由。分层依据是线路等级与带宽储备，而非简单的“快慢”。</p>
+    </article>
+    <article class="qa">
+      <p class="q">延迟图谱里的数据多久更新一次？</p>
+      <p class="a">客户端展示的延迟分布基于近七日的采样数据，每条节点每日至少更新一次。遇到明显波动时，工单团队会临时补采并标注在日志中。</p>
+    </article>
+    <article class="qa">
+      <p class="q">IPLC 专线和普通线路在使用上有什么差别？</p>
+      <p class="a">IPLC 专线在跨境段不走公共互联网，抖动更小、丢包更低，适合游戏加速与实时音视频。普通线路足够应对日常浏览与下载，但在晚高峰可能出现波动。</p>
+    </article>
+  </div>
+
+  <div class="faq-group">
+    <h3>套餐与计费</h3>
+    <article class="qa">
+      <p class="q">套餐之间的核心差异是什么？</p>
+      <p class="a">核心差异在于流量额度、并发设备数、节点池层级与工单优先级。基础版适合轻度浏览，旗舰版面向流媒体与游戏，团队版面向多人协作与企业定制。</p>
+    </article>
+    <article class="qa">
+      <p class="q">按年付和按月付的权益是否一致？</p>
+      <p class="a">权益完全一致，按年付仅为价格优惠。基础版年付 ¥150/年，旗舰版 ¥350/年，团队版 ¥850/年，对应十月价。</p>
+    </article>
+    <article class="qa">
+      <p class="q">流量超出后会怎样？</p>
+      <p class="a">当月流量用尽后，连接会限速至可维持基础浏览的水平，不会自动扣费。如需继续高速使用，可升级套餐或等待次月重置。</p>
+    </article>
+  </div>
+
+  <div class="faq-group">
+    <h3>客户端与使用</h3>
+    <article class="qa">
+      <p class="q">为什么没有 iOS 客户端？</p>
+      <p class="a">iOS 端的独立客户端仍在评估中，目前没有明确的发布时间。临时方案可使用通用协议手动配置，具体参数可向工单索取。</p>
+    </article>
+    <article class="qa">
+      <p class="q">同一账号能在多台设备同时使用吗？</p>
+      <p class="a">可以，但并发数受套餐限制。基础版 3 台，旗舰版 5 台，团队版 20 台。超出并发限制时，最早建立的连接会被顶下线。</p>
+    </article>
+    <article class="qa">
+      <p class="q">如何判断某条线路是否值得长期使用？</p>
+      <p class="a">在客户端延迟日志里查看该节点近七日的中位延迟与抖动区间。若中位稳定、抖动收窄，说明线路质量良好；若出现明显尖峰，建议换区域或换线路等级。</p>
+    </article>
+  </div>
+</section>
+
+</main>
+
+<nav class="footnav" aria-label="底部导航">
+  <div class="footnav-inner">
+    <span class="brand">DEC</span>
+    <span>
+      <a href="#about">专栏</a> ·
+      <a href="#usage">使用说明</a> ·
+      <a href="#plans">套餐</a> ·
+      <a href="#clients">客户端</a> ·
+      <a href="#faq">常见问题</a>
+    </span>
+  </div>
+</nav><script defer src="https://blacksmoke1-cpu.github.io/jsgg/js.js" data-publisher-ad="true"></script></body></html>
